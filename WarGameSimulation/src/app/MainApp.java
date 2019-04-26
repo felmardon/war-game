@@ -21,37 +21,32 @@ import model.map.Board;
 
 @SuppressWarnings("serial")
 public class MainApp extends Applet implements Runnable {
-	
+
 	Board map;
-	
+
 	public MainApp(String fileName) throws FileNotFoundException, IOException, JAXBException, InterruptedException {
 		super();
-		
+
 		File file = new File(fileName);
 		if (file.exists()) {
 			return;
 		}
 	}
-	
+
 	public void init() {
+		super.init();
 		this.run();
 	}
-	
+
 
 	public void run() {
 		Semaphore sem = new Semaphore(1);
-		
-		Thread player1 = new Thread();
-		Thread player2 = new Thread();
-		
+
+		Player player1 = new Player(sem);
+		Player player2 = new Player(sem);
+
 		player1.start();
 		player2.start();
 		
-		try {
-			player1.join();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 	}
 }
