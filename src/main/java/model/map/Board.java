@@ -17,8 +17,6 @@ public class Board {
 	 * 
 	 * @param x length of board
 	 * @param y width of board
-	 * @param p1 Player 1
-	 * @param p2 Player 2
 	 */
 	public Board(int x, int y) {
 		
