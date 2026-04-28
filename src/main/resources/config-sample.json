@@ -1,0 +1,27 @@
+{
+  "board": {
+    "width": 9,
+    "height": 9,
+    "description": "Basic 9x9 game board configuration"
+  },
+  "players": [
+    {
+      "id": 1,
+      "name": "Player One",
+      "color": "BLUE",
+      "ai_strategy": "MINIMAX"
+    },
+    {
+      "id": 2,
+      "name": "Player Two",
+      "color": "GREEN",
+      "ai_strategy": "ALPHA_BETA_PRUNING"
+    }
+  ],
+  "game_settings": {
+    "max_depth_search": 4,
+    "time_limit_ms": 5000,
+    "enable_logging": true
+  }
+}
+

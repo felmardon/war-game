@@ -8,14 +8,23 @@
 /dependency-reduced-pom.xml
 .flattened-pom.xml
 
-# IDE
+# IDE - IntelliJ
 /.idea/
 *.iml
 *.iws
 *.ipr
+
+# IDE - VS Code
 /.vscode/
+
+# IDE - General
 *.swp
 *.swo
+
+# Eclipse configuration files ARE tracked (for team consistency)
+# But exclude local Eclipse workspace files if needed:
+# /.metadata/
+# /.recommenders/
 
 # OS
 .DS_Store
