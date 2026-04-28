@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wargame</groupId>
-    <artifactId>war-game-simulation</artifactId>
+    <artifactId>war-game-simulator-engine</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 

@@ -23,7 +23,7 @@ The project is currently in **early development** as a standalone Java applicati
 ## How to Run Locally
 
 ### Prerequisites
-- **Java 11+** installed on your machine
+- **Java 25** installed on your machine
 - **Maven 3.6+** installed
 - **Git** (optional, for cloning)
 
@@ -42,15 +42,15 @@ The project is currently in **early development** as a standalone Java applicati
 
 3. **Run the application**
    ```bash
-   java -jar target/war-game-simulation-1.0.0.jar <config-file>
+   java -jar target/war-game-simulation-1.0.0.jar src/main/resources/config-sample.json
    ```
    
    Or run directly through Maven:
    ```bash
-   mvn exec:java -Dexec.mainClass="app.Driver" -Dexec.args="<config-file>"
+   mvn exec:java -Dexec.mainClass="app.Driver" -Dexec.args="src/main/resources/config-sample.json"
    ```
 
-4. **Run tests** (when available)
+4. **Run tests**
    ```bash
    mvn test
    ```
@@ -59,30 +59,74 @@ The project is currently in **early development** as a standalone Java applicati
 
 1. Open the project in IntelliJ
 2. Maven dependencies will automatically download
-3. Right-click on `Driver.java` → **Run 'Driver.main()'** to execute
+3. Right-click on `Driver.java` → **Run 'Driver.main()'** to execute with sample config as argument
+4. To pass the config file: Edit `Driver.java` run configuration and add program arguments: `src/main/resources/config-sample.json`
+
+### Development in Eclipse
+
+1. **Import the project into Eclipse**
+   - Open Eclipse and go to **File** → **Import**
+   - Select **Maven** → **Existing Maven Projects**
+   - Browse to the project root directory and click **Finish**
+   - Eclipse will automatically configure the project based on `.project`, `.classpath`, and Maven settings
+
+2. **Configure JRE (if needed)**
+   - Right-click on the project → **Properties**
+   - Select **Project Facets**
+   - Ensure Java version is set to 25 or later
+   - If JRE is not configured, go to **Java Build Path** → **JRE System Library**
+   - Click **Edit** and select or install Java 25
+
+3. **Run tests**
+   - Right-click on the project → **Run As** → **Maven test**
+   - Or right-click on a test class → **Run As** → **JUnit Test**
+
+4. **Run the application**
+   - Right-click on `Driver.java` → **Run As** → **Java Application**
+   - To pass the configuration file, you may need to create a **Run Configuration**:
+     - Go to **Run** → **Run Configurations**
+     - Create a new **Java Application** configuration
+     - Set Main class to `app.Driver`
+     - In Arguments tab, set Program arguments to: `src/main/resources/config-sample.json`
 
 ## Project Structure
 
 ```
 war-game/
+├── .project                           # Eclipse project configuration
+├── .classpath                         # Eclipse classpath configuration
+├── .settings/                         # Eclipse IDE settings
+│   ├── org.eclipse.jdt.core.prefs    # Java compiler settings
+│   └── org.eclipse.m2e.core.prefs    # Maven settings
 ├── src/
-│   ├── main/java/
-│   │   ├── algo/              # AI algorithms
-│   │   │   ├── Minimax.java
-│   │   │   ├── AlphaBetaPruning.java
-│   │   │   ├── Random.java
-│   │   │   └── TreeNode.java  # Generic tree for game states
-│   │   ├── app/               # Application entry points
-│   │   │   ├── Driver.java    # Main entry point
-│   │   │   └── MainApp.java   # Core game logic
-│   │   └── model/             # Game entities
-│   │       └── map/
-│   │           └── Board.java # Game board with pieces
-│   ├── test/java/             # Unit tests
-│   └── main/resources/        # Config files, assets
-├── pom.xml                    # Maven configuration
-└─��� README.md
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── algo/                 # AI algorithms
+│   │   │   │   ├── Minimax.java
+│   │   │   │   ├── AlphaBetaPruning.java
+│   │   │   │   ├── Random.java
+│   │   │   │   └── TreeNode.java     # Generic tree for game states
+│   │   │   ├── app/                  # Application entry points
+│   │   │   │   ├── Driver.java       # Main entry point
+│   │   │   │   └── MainApp.java      # Core game logic
+│   │   │   └── model/                # Game entities
+│   │   │       └── map/
+│   │   │           └── Board.java    # Game board with pieces
+│   │   └── resources/
+│   │       └── config-sample.json    # Sample game configuration
+│   └── test/java/                    # Unit tests (with JUnit 4)
+├── target/                           # Build output (generated)
+├── .gitignore                        # Git ignore rules
+├── pom.xml                           # Maven configuration
+└── README.md                         # This file
 ```
+
+### Configuration Files
+
+- **`config-sample.json`**: Sample configuration for a 9x9 board with two AI players
+  - Located in `src/main/resources/`
+  - Defines board dimensions, player settings, and AI strategies
+  - Can be used as a template for custom game configurations
 
 ## Future State: Web Application
 
@@ -105,8 +149,8 @@ The end goal is to transition War Game Simulation into a **browser-based web app
 
 ## Technologies & Dependencies
 
-- **Java 11** - Core language
-- **Maven** - Build automation & dependency management
+- **Java 25** - Core language (with preview features enabled)
+- **Maven 3.6+** - Build automation & dependency management
 - **JUnit 4** - Testing framework
 - **Spring Boot** *(planned)* - REST API framework
 - **React** *(planned)* - Frontend UI framework
