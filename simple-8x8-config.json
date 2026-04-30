@@ -1,0 +1,26 @@
+{
+  "board": {
+    "width": 8,
+    "height": 8,
+    "description": "Simple 8x8 game board configuration"
+  },
+  "players": [
+    {
+      "id": 1,
+      "name": "Player One",
+      "color": "BLUE",
+      "ai_strategy": "MINIMAX"
+    },
+    {
+      "id": 2,
+      "name": "Player Two",
+      "color": "RED",
+      "ai_strategy": "ALPHA_BETA_PRUNING"
+    }
+  ],
+  "game_settings": {
+    "max_depth_search": 3,
+    "time_limit_ms": 3000,
+    "enable_logging": true
+  }
+}

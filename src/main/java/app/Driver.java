@@ -10,7 +10,7 @@ import java.io.IOException;
  */
 public class Driver {
 
-	public static void main(String[] args) {
+	static void main(String[] args) {
 		// Validate command-line arguments
 		if (args.length == 0) {
 			printUsage();
