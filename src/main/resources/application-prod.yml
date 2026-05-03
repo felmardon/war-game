@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: prod
+
+server:
+  port: 8080
+  compression:
+    enabled: true
+
+deployment:
+  environment: production
+  target: placeholder-production-server
+  debug: false
+
+logging:
+  level:
+    ROOT: WARN
+    com.wargame: INFO
+  file:
+    name: /var/log/war-game/application.log
+    max-size: 10MB
+    max-history: 30
+

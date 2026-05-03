@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug War Game Application",
+      "request": "launch",
+      "mainClass": "app.WarGameApplication",
+      "projectName": "war-game-simulator-engine",
+      "args": "src/main/resources/config-sample.json",
+      "console": "integratedTerminal",
+      "stopOnEntry": false
+    },
+    {
+      "type": "java",
+      "name": "Debug Driver",
+      "request": "launch",
+      "mainClass": "app.Driver",
+      "projectName": "war-game-simulator-engine",
+      "args": "src/main/resources/config-sample.json",
+      "console": "integratedTerminal",
+      "stopOnEntry": false
+    },
+    {
+      "type": "java",
+      "name": "Run JUnit Tests",
+      "request": "launch",
+      "mainClass": "org.junit.runner.JUnitCore",
+      "projectName": "war-game-simulator-engine",
+      "console": "integratedTerminal"
+    }
+  ]
+}
+

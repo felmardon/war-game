@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+deployment:
+  environment: development
+  target: local-machine
+  debug: true
+
+logging:
+  level:
+    ROOT: INFO
+    com.wargame: DEBUG
+

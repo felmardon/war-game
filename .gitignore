@@ -14,8 +14,9 @@
 *.iws
 *.ipr
 
-# IDE - VS Code
-/.vscode/
+# IDE - VS Code (configuration files ARE tracked for team consistency)
+# But exclude local user-specific settings if needed:
+# .vscode/settings.json.user
 
 # IDE - General
 *.swp
