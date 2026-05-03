@@ -1,5 +1,7 @@
 package app;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
@@ -17,8 +19,13 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = {"app", "algo", "model"})
 public class WarGameApplication {
 
+    private static final Logger logger = LoggerFactory.getLogger(WarGameApplication.class);
+
     public static void main(String[] args) {
+        logger.info("Starting War Game Simulation application...");
+        logger.debug("Application arguments: {}", (Object) args);
         SpringApplication.run(WarGameApplication.class, args);
+        logger.info("War Game Simulation application started successfully");
     }
 }
 

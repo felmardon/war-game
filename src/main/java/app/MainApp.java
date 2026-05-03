@@ -10,13 +10,16 @@
 package app;
 
 import java.util.concurrent.*;
-
 import java.io.IOException;
 import java.io.File;
 import java.io.FileNotFoundException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 public class MainApp implements Runnable {
+
+	private static final Logger logger = LoggerFactory.getLogger(MainApp.class);
 
 	// TODO: Initialize board when game is fully implemented
 	// private Board map;
@@ -29,17 +32,22 @@ public class MainApp implements Runnable {
 	 * @throws IOException if an I/O error occurs
 	 */
 	public MainApp(String fileName) throws FileNotFoundException, IOException {
+		logger.debug("Initializing MainApp with configuration file: {}", fileName);
+
 		File file = new File(fileName);
 		if (!file.exists()) {
+			logger.error("Configuration file does not exist: {}", fileName);
 			throw new FileNotFoundException("Configuration file not found: " + fileName);
 		}
 
+		logger.info("Configuration file validated: {}", file.getAbsolutePath());
 		// TODO: Load configuration from file
 		// TODO: Initialize game state
 	}
 
 	@Override
 	public void run() {
+		logger.debug("Running MainApp game loop");
 		// TODO: Implement game loop
 		// Semaphore sem = new Semaphore(1);
 

@@ -2,6 +2,8 @@ package app;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Entry point for the War Game Simulation application.
@@ -10,26 +12,33 @@ import java.io.IOException;
  */
 public class Driver {
 
-	static void main(String[] args) {
+	private static final Logger logger = LoggerFactory.getLogger(Driver.class);
+
+	public static void main(String[] args) {
+		logger.info("War Game Simulation CLI started");
+
 		// Validate command-line arguments
 		if (args.length == 0) {
+			logger.warn("No configuration file provided");
 			printUsage();
 			System.exit(1);
 		}
 
+		logger.info("Loading configuration from: {}", args[0]);
 		try {
 			new MainApp(args[0]);
+			logger.info("Application initialized successfully");
 		}
 		catch (FileNotFoundException e) {
-			System.err.println("Error: Configuration file not found: " + args[0]);
+			logger.error("Configuration file not found: {}", args[0], e);
 			System.exit(1);
 		}
 		catch (IOException e) {
-			System.err.println("Error: I/O exception while reading configuration file");
+			logger.error("I/O exception while reading configuration file", e);
 			System.exit(1);
 		}
 		catch (Exception e) {
-			System.err.println("Error: Unexpected exception occurred: " + e.getMessage());
+			logger.error("Unexpected exception occurred: {}", e.getMessage(), e);
 			System.exit(1);
 		}
 	}

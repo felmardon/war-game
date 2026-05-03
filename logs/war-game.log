@@ -1,0 +1,354 @@
+2026-05-03 16:42:10.791 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:10.794 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:10.799 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:10.799 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:10.800 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:10.800 [main] DEBUG model.map.Board - Setting piece with color BLUE on square
+2026-05-03 16:42:10.801 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:10.802 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:10.802 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:10.802 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 1)
+2026-05-03 16:42:10.802 [main] DEBUG model.map.Board - Setting piece with color BLUE on square
+2026-05-03 16:42:10.803 [main] DEBUG model.map.Board - Setting piece with color GREEN on square
+2026-05-03 16:42:10.805 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:10.805 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:10.805 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:10.806 [main] DEBUG model.map.Board - Setting piece with color BLUE on square
+2026-05-03 16:42:10.807 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:10.807 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:10.808 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:10.809 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:10.809 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:10.810 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:10.810 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:10.810 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:10.811 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:10.811 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:10.812 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:10.812 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 1)
+2026-05-03 16:42:10.812 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 2)
+2026-05-03 16:42:10.812 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 3)
+2026-05-03 16:42:10.812 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 4)
+2026-05-03 16:42:10.812 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 5)
+2026-05-03 16:42:10.813 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 6)
+2026-05-03 16:42:10.813 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 7)
+2026-05-03 16:42:10.813 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 0)
+2026-05-03 16:42:10.813 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 1)
+2026-05-03 16:42:10.813 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 2)
+2026-05-03 16:42:10.813 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 3)
+2026-05-03 16:42:10.814 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 4)
+2026-05-03 16:42:10.815 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 5)
+2026-05-03 16:42:10.815 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 6)
+2026-05-03 16:42:10.815 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 7)
+2026-05-03 16:42:10.815 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 0)
+2026-05-03 16:42:10.815 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 1)
+2026-05-03 16:42:10.815 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 2)
+2026-05-03 16:42:10.816 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 3)
+2026-05-03 16:42:10.816 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 4)
+2026-05-03 16:42:10.816 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 5)
+2026-05-03 16:42:10.816 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 6)
+2026-05-03 16:42:10.816 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 7)
+2026-05-03 16:42:10.817 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 0)
+2026-05-03 16:42:10.817 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 1)
+2026-05-03 16:42:10.817 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 2)
+2026-05-03 16:42:10.817 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 3)
+2026-05-03 16:42:10.818 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 4)
+2026-05-03 16:42:10.818 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 5)
+2026-05-03 16:42:10.818 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 6)
+2026-05-03 16:42:10.818 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 7)
+2026-05-03 16:42:10.818 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 0)
+2026-05-03 16:42:10.818 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 1)
+2026-05-03 16:42:10.818 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 2)
+2026-05-03 16:42:10.818 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 3)
+2026-05-03 16:42:10.819 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 4)
+2026-05-03 16:42:10.819 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 5)
+2026-05-03 16:42:10.819 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 6)
+2026-05-03 16:42:10.819 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 7)
+2026-05-03 16:42:10.820 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 0)
+2026-05-03 16:42:10.820 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 1)
+2026-05-03 16:42:10.820 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 2)
+2026-05-03 16:42:10.820 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 3)
+2026-05-03 16:42:10.821 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 4)
+2026-05-03 16:42:10.821 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 5)
+2026-05-03 16:42:10.821 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 6)
+2026-05-03 16:42:10.821 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 7)
+2026-05-03 16:42:10.821 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 0)
+2026-05-03 16:42:10.821 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 1)
+2026-05-03 16:42:10.821 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 2)
+2026-05-03 16:42:10.821 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 3)
+2026-05-03 16:42:10.821 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 4)
+2026-05-03 16:42:10.822 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 5)
+2026-05-03 16:42:10.822 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 6)
+2026-05-03 16:42:10.822 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 7)
+2026-05-03 16:42:10.822 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 0)
+2026-05-03 16:42:10.822 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 1)
+2026-05-03 16:42:10.822 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 2)
+2026-05-03 16:42:10.823 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 3)
+2026-05-03 16:42:10.823 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 4)
+2026-05-03 16:42:10.823 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 5)
+2026-05-03 16:42:10.823 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 6)
+2026-05-03 16:42:10.823 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 7)
+2026-05-03 16:42:10.826 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:10.826 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:10.826 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:10.826 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 0)
+2026-05-03 16:42:10.826 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 0)
+2026-05-03 16:42:10.827 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 0)
+2026-05-03 16:42:10.827 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 0)
+2026-05-03 16:42:10.827 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 0)
+2026-05-03 16:42:10.827 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 0)
+2026-05-03 16:42:10.827 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 0)
+2026-05-03 16:42:10.828 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:10.829 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:10.829 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:10.830 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:10.831 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:10.831 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:10.831 [main] DEBUG model.map.Board - Setting piece with color BLUE on square
+2026-05-03 16:42:10.831 [main] DEBUG model.map.Board - Setting piece with color GREEN on square
+2026-05-03 16:42:10.831 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:10.831 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:10.832 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:10.832 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 1)
+2026-05-03 16:42:10.832 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 2)
+2026-05-03 16:42:10.832 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 3)
+2026-05-03 16:42:10.832 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 4)
+2026-05-03 16:42:10.832 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 5)
+2026-05-03 16:42:10.832 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 6)
+2026-05-03 16:42:10.833 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 7)
+2026-05-03 16:42:27.903 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:27.907 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:27.911 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:27.911 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:27.912 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:27.913 [main] DEBUG model.map.Board - Setting piece with color BLUE on square
+2026-05-03 16:42:27.913 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:27.914 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:27.914 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:27.914 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 1)
+2026-05-03 16:42:27.914 [main] DEBUG model.map.Board - Setting piece with color BLUE on square
+2026-05-03 16:42:27.915 [main] DEBUG model.map.Board - Setting piece with color GREEN on square
+2026-05-03 16:42:27.916 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:27.917 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:27.917 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:27.917 [main] DEBUG model.map.Board - Setting piece with color BLUE on square
+2026-05-03 16:42:27.918 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:27.918 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:27.919 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:27.920 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:27.920 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:27.921 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:27.921 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:27.921 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:27.922 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:27.923 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:27.923 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:27.923 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 1)
+2026-05-03 16:42:27.923 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 2)
+2026-05-03 16:42:27.923 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 3)
+2026-05-03 16:42:27.923 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 4)
+2026-05-03 16:42:27.923 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 5)
+2026-05-03 16:42:27.924 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 6)
+2026-05-03 16:42:27.924 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 7)
+2026-05-03 16:42:27.924 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 0)
+2026-05-03 16:42:27.924 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 1)
+2026-05-03 16:42:27.924 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 2)
+2026-05-03 16:42:27.924 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 3)
+2026-05-03 16:42:27.925 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 4)
+2026-05-03 16:42:27.925 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 5)
+2026-05-03 16:42:27.925 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 6)
+2026-05-03 16:42:27.926 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 7)
+2026-05-03 16:42:27.926 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 0)
+2026-05-03 16:42:27.926 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 1)
+2026-05-03 16:42:27.926 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 2)
+2026-05-03 16:42:27.927 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 3)
+2026-05-03 16:42:27.927 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 4)
+2026-05-03 16:42:27.927 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 5)
+2026-05-03 16:42:27.927 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 6)
+2026-05-03 16:42:27.927 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 7)
+2026-05-03 16:42:27.927 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 0)
+2026-05-03 16:42:27.927 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 1)
+2026-05-03 16:42:27.927 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 2)
+2026-05-03 16:42:27.928 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 3)
+2026-05-03 16:42:27.928 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 4)
+2026-05-03 16:42:27.928 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 5)
+2026-05-03 16:42:27.928 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 6)
+2026-05-03 16:42:27.928 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 7)
+2026-05-03 16:42:27.928 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 0)
+2026-05-03 16:42:27.928 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 1)
+2026-05-03 16:42:27.929 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 2)
+2026-05-03 16:42:27.929 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 3)
+2026-05-03 16:42:27.929 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 4)
+2026-05-03 16:42:27.929 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 5)
+2026-05-03 16:42:27.930 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 6)
+2026-05-03 16:42:27.931 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 7)
+2026-05-03 16:42:27.931 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 0)
+2026-05-03 16:42:27.931 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 1)
+2026-05-03 16:42:27.931 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 2)
+2026-05-03 16:42:27.931 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 3)
+2026-05-03 16:42:27.931 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 4)
+2026-05-03 16:42:27.932 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 5)
+2026-05-03 16:42:27.932 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 6)
+2026-05-03 16:42:27.933 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 7)
+2026-05-03 16:42:27.933 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 0)
+2026-05-03 16:42:27.933 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 1)
+2026-05-03 16:42:27.933 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 2)
+2026-05-03 16:42:27.933 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 3)
+2026-05-03 16:42:27.933 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 4)
+2026-05-03 16:42:27.934 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 5)
+2026-05-03 16:42:27.934 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 6)
+2026-05-03 16:42:27.934 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 7)
+2026-05-03 16:42:27.934 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 0)
+2026-05-03 16:42:27.934 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 1)
+2026-05-03 16:42:27.934 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 2)
+2026-05-03 16:42:27.934 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 3)
+2026-05-03 16:42:27.934 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 4)
+2026-05-03 16:42:27.934 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 5)
+2026-05-03 16:42:27.935 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 6)
+2026-05-03 16:42:27.935 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 7)
+2026-05-03 16:42:27.937 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:27.938 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:27.938 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:27.938 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 0)
+2026-05-03 16:42:27.938 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 0)
+2026-05-03 16:42:27.938 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 0)
+2026-05-03 16:42:27.938 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 0)
+2026-05-03 16:42:27.938 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 0)
+2026-05-03 16:42:27.938 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 0)
+2026-05-03 16:42:27.938 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 0)
+2026-05-03 16:42:27.940 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:27.942 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:27.943 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:27.943 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:27.944 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:27.944 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:27.944 [main] DEBUG model.map.Board - Setting piece with color BLUE on square
+2026-05-03 16:42:27.945 [main] DEBUG model.map.Board - Setting piece with color GREEN on square
+2026-05-03 16:42:27.945 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:27.945 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:27.945 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:27.945 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 1)
+2026-05-03 16:42:27.945 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 2)
+2026-05-03 16:42:27.945 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 3)
+2026-05-03 16:42:27.945 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 4)
+2026-05-03 16:42:27.945 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 5)
+2026-05-03 16:42:27.946 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 6)
+2026-05-03 16:42:27.946 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 7)
+2026-05-03 16:42:42.456 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:42.459 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:42.464 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:42.464 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:42.465 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:42.466 [main] DEBUG model.map.Board - Setting piece with color BLUE on square
+2026-05-03 16:42:42.467 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:42.467 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:42.468 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:42.468 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 1)
+2026-05-03 16:42:42.468 [main] DEBUG model.map.Board - Setting piece with color BLUE on square
+2026-05-03 16:42:42.468 [main] DEBUG model.map.Board - Setting piece with color GREEN on square
+2026-05-03 16:42:42.470 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:42.470 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:42.470 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:42.470 [main] DEBUG model.map.Board - Setting piece with color BLUE on square
+2026-05-03 16:42:42.471 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:42.472 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:42.472 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:42.473 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:42.473 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:42.473 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:42.473 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:42.474 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:42.475 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:42.475 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:42.475 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:42.476 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 1)
+2026-05-03 16:42:42.476 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 2)
+2026-05-03 16:42:42.476 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 3)
+2026-05-03 16:42:42.476 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 4)
+2026-05-03 16:42:42.476 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 5)
+2026-05-03 16:42:42.476 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 6)
+2026-05-03 16:42:42.477 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 7)
+2026-05-03 16:42:42.477 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 0)
+2026-05-03 16:42:42.477 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 1)
+2026-05-03 16:42:42.477 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 2)
+2026-05-03 16:42:42.477 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 3)
+2026-05-03 16:42:42.477 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 4)
+2026-05-03 16:42:42.478 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 5)
+2026-05-03 16:42:42.479 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 6)
+2026-05-03 16:42:42.479 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 7)
+2026-05-03 16:42:42.479 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 0)
+2026-05-03 16:42:42.479 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 1)
+2026-05-03 16:42:42.480 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 2)
+2026-05-03 16:42:42.480 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 3)
+2026-05-03 16:42:42.480 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 4)
+2026-05-03 16:42:42.480 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 5)
+2026-05-03 16:42:42.480 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 6)
+2026-05-03 16:42:42.480 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 7)
+2026-05-03 16:42:42.480 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 0)
+2026-05-03 16:42:42.481 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 1)
+2026-05-03 16:42:42.481 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 2)
+2026-05-03 16:42:42.481 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 3)
+2026-05-03 16:42:42.481 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 4)
+2026-05-03 16:42:42.481 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 5)
+2026-05-03 16:42:42.481 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 6)
+2026-05-03 16:42:42.482 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 7)
+2026-05-03 16:42:42.482 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 0)
+2026-05-03 16:42:42.482 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 1)
+2026-05-03 16:42:42.482 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 2)
+2026-05-03 16:42:42.482 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 3)
+2026-05-03 16:42:42.482 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 4)
+2026-05-03 16:42:42.482 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 5)
+2026-05-03 16:42:42.483 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 6)
+2026-05-03 16:42:42.484 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 7)
+2026-05-03 16:42:42.484 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 0)
+2026-05-03 16:42:42.484 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 1)
+2026-05-03 16:42:42.484 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 2)
+2026-05-03 16:42:42.484 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 3)
+2026-05-03 16:42:42.484 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 4)
+2026-05-03 16:42:42.485 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 5)
+2026-05-03 16:42:42.485 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 6)
+2026-05-03 16:42:42.485 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 7)
+2026-05-03 16:42:42.485 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 0)
+2026-05-03 16:42:42.485 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 1)
+2026-05-03 16:42:42.485 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 2)
+2026-05-03 16:42:42.486 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 3)
+2026-05-03 16:42:42.486 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 4)
+2026-05-03 16:42:42.486 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 5)
+2026-05-03 16:42:42.487 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 6)
+2026-05-03 16:42:42.487 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 7)
+2026-05-03 16:42:42.487 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 0)
+2026-05-03 16:42:42.487 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 1)
+2026-05-03 16:42:42.487 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 2)
+2026-05-03 16:42:42.487 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 3)
+2026-05-03 16:42:42.487 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 4)
+2026-05-03 16:42:42.487 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 5)
+2026-05-03 16:42:42.488 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 6)
+2026-05-03 16:42:42.488 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 7)
+2026-05-03 16:42:42.490 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:42.490 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:42.490 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:42.490 [main] DEBUG model.map.Board - Retrieving square at coordinates: (1, 0)
+2026-05-03 16:42:42.490 [main] DEBUG model.map.Board - Retrieving square at coordinates: (2, 0)
+2026-05-03 16:42:42.490 [main] DEBUG model.map.Board - Retrieving square at coordinates: (3, 0)
+2026-05-03 16:42:42.490 [main] DEBUG model.map.Board - Retrieving square at coordinates: (4, 0)
+2026-05-03 16:42:42.490 [main] DEBUG model.map.Board - Retrieving square at coordinates: (5, 0)
+2026-05-03 16:42:42.490 [main] DEBUG model.map.Board - Retrieving square at coordinates: (6, 0)
+2026-05-03 16:42:42.490 [main] DEBUG model.map.Board - Retrieving square at coordinates: (7, 0)
+2026-05-03 16:42:42.492 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:42.493 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:42.494 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:42.496 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:42.496 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:42.496 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:42.496 [main] DEBUG model.map.Board - Setting piece with color BLUE on square
+2026-05-03 16:42:42.497 [main] DEBUG model.map.Board - Setting piece with color GREEN on square
+2026-05-03 16:42:42.497 [main] DEBUG model.map.Board - Initializing Board with dimensions: 8 x 8
+2026-05-03 16:42:42.497 [main] INFO  model.map.Board - Board initialized successfully with 64 squares
+2026-05-03 16:42:42.497 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 0)
+2026-05-03 16:42:42.497 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 1)
+2026-05-03 16:42:42.497 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 2)
+2026-05-03 16:42:42.497 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 3)
+2026-05-03 16:42:42.498 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 4)
+2026-05-03 16:42:42.498 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 5)
+2026-05-03 16:42:42.498 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 6)
+2026-05-03 16:42:42.498 [main] DEBUG model.map.Board - Retrieving square at coordinates: (0, 7)

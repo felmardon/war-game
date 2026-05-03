@@ -7,9 +7,12 @@ package model.map;
  *
  */
 import java.util.Random;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Board {
 	
+	private static final Logger logger = LoggerFactory.getLogger(Board.class);
 	private Square[][] squares;
 
 	/**
@@ -19,7 +22,8 @@ public class Board {
 	 * @param y width of board
 	 */
 	public Board(int x, int y) {
-		
+		logger.debug("Initializing Board with dimensions: {} x {}", x, y);
+
 		Random rand = new Random();
 		
 		squares = new Square[x][y];
@@ -30,6 +34,7 @@ public class Board {
 			}
 		}
 		
+		logger.info("Board initialized successfully with {} squares", (x * y));
 		rand = null;
 	}
 	
@@ -41,6 +46,7 @@ public class Board {
 	 * @return square with corresponding x and y coordinates
 	 */
 	public Square getSquare(int x, int y) {
+		logger.debug("Retrieving square at coordinates: ({}, {})", x, y);
 		return squares[x][y];
 	}
 	
@@ -78,6 +84,7 @@ public class Board {
 		 * @param newPiece
 		 */
 		public void setPiece(Piece newPiece) {
+			logger.debug("Setting piece with color {} on square", newPiece.getColor());
 			piece = newPiece;
 		}
 
