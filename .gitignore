@@ -33,3 +33,7 @@
 # Build
 /bin/
 /build/
+
+# Logs
+/logs/
+/logs/*.log

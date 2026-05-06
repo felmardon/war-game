@@ -12,19 +12,19 @@ public class TreeNode<T> {
 	public TreeNode() {
 		data = null;
 		parent = null;
-		children = new ArrayList<TreeNode<T>>();
+		children = new ArrayList<>();
 	}
 	
 	public TreeNode(T data) {
 		this.data = data;
 		parent = null;
-		children = new ArrayList<TreeNode<T>>();
+		children = new ArrayList<>();
 	}
 	
 	public TreeNode(T data, TreeNode<T> parent) {
 		this.data = data;
 		this.parent = parent;
-		children = new ArrayList<TreeNode<T>>();
+		children = new ArrayList<>();
 	}
 	
 	/**

@@ -28,4 +28,3 @@ public class WarGameApplication {
         logger.info("War Game Simulation application started successfully");
     }
 }
-
