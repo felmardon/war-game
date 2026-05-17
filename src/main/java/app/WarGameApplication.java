@@ -21,7 +21,7 @@ public class WarGameApplication {
 
     private static final Logger logger = LoggerFactory.getLogger(WarGameApplication.class);
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         logger.info("Starting War Game Simulation application...");
         logger.debug("Application arguments: {}", (Object) args);
         SpringApplication.run(WarGameApplication.class, args);
